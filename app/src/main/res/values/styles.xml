@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="DatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#ff6d00</item>
+        <item name="colorControlActivated">#33691e</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">#d50000</item>
+    </style>
+    <!--<style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/deeppurple</item>
+        <item name="android:textColorPrimary">@color/deeppurple</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/pink</item>
+
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>-->
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/deeppurple</item>
+        <item name="colorControlNormal">@color/control_color</item>
+
+        <item name="colorControlActivated">@color/control_color</item>
+        <item name="colorControlHighlight">@color/control_color</item>
+    </style>
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+   <!-- <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:text">Welcome To Splash Screen Please Wait Few Seconds</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>-->
+</resources>
